@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "name": "BYU West View Building",
+      "year_complete": 2020,
+      "square_footage": 50500,
+      "cost": null
+    },
+    {
+      "name": "UVU Lehi Campus Building",
+      "year_complete": 2024,
+      "square_footage": 103000,
+      "cost": null
+    },
+    {
+      "name": "Nebo Bus Compound",
+      "year_complete": 2019,
+      "square_footage": 1000,
+      "cost": null
+    },
+    {
+      "name": "BYU Heritage Halls Central Building",
+      "year_complete": 2017,
+      "square_footage": 35679,
+      "cost": null
+    },
+    {
+      "name": "BYU Store Renovation Project",
+      "year_complete": 2019,
+      "square_footage": 24000,
+      "cost": null
+    },
+    {
+      "name": "BYU Cougareat Renovation Project",
+      "year_complete": 2019,
+      "square_footage": 100000,
+      "cost": null
+    },
+    {
+      "name": "BYU Sorenson Center Remodel",
+      "year_complete": 2022,
+      "square_footage": 8000,
+      "cost": 750000.00
+    },
+    {
+      "name": "Orem UDC Corrections Center",
+      "year_complete": 2022,
+      "square_footage": null,
+      "cost": 7900000.00
+    },
+    {
+      "name": "UVU Alumni Orem",
+      "year_complete": 2023,
+      "square_footage": 31400,
+      "cost": 4500000.00
+    },
+    {
+      "name": "UCCU Vineyard",
+      "year_complete": 2022,
+      "square_footage": 2500,
+      "cost": null
+    },
+    {
+      "name": "American Heritage Renovation",
+      "year_complete": 2021,
+      "square_footage": null,
+      "cost": 9500000.00
+    }
+  ]
+}
