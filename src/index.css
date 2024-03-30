@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --darkGray: #141414;
+    --mediumGray: #666666;
+    --lightGray: #D3D3D3;
+    --black: #041e2e;
+    --yellow: #eccf69;
+    --lightYellow: #fff8dd;
+    --lightBlue: #57b9d0;
+    --darkBlue: #25657a;
+    --midBlue: #3587a1;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: var(--darkBlue);    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: .5em;
+
+}
+
+body, p {
+    font-family: 'Karla', sans-serif;
+    color: var(--black);
+}
+
+.logoMain {
+    font-family: 'Signika', sans-serif;
+}
+.logoSub {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
