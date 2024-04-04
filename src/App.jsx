@@ -10,6 +10,7 @@ import JobApplication from './components/Pages/JobApplication';
 import Privacy from './components/Pages/Privacy';
 import Projects from './components/Pages/Projects';
 import RequestServices from './components/Pages/RequestServices';
+import Success from './components/Pages/Success';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/privacy' element={<Privacy/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/request-services' element={<RequestServices/>}/>
+          <Route path='/success' element={<Success/>} />
         </Routes>
       </Layout>
     </>
