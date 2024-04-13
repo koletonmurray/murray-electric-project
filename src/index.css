@@ -55,3 +55,9 @@ p {
     line-height: 1.5;
     margin-bottom: 1rem;
 }
+
+li {
+    list-style-type: disc;
+    color: black;
+    left: 5px;
+}

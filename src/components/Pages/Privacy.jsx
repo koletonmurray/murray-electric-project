@@ -1,6 +1,6 @@
 export default function Privacy () {
     return (
-        <div className="text-left">
+        <div className="text-left max-w-5xl mx-auto pb-10 px-10">
             <h1 className="font-bold text-center py-5">ONLINE PRIVACY POLICY AGREEMENT</h1>
 
                 <p>March 18, 2024</p>
@@ -83,7 +83,7 @@ export default function Privacy () {
                     <li>as required by law, or in response to a subpoena or search warrant;</li>
                     <li>to outside auditors who have agreed to keep the information confidential;</li>
                     <li>as necessary to enforce the Terms of Service;</li>
-                    <li>as necessary to maintain, safeguard and preserve all the rights and property of Murray Electric Corp..</li>
+                    <li>as necessary to maintain, safeguard and preserve all the rights and property of Murray Electric Corp.</li>
                 </ul>
 
             <h3>Non-Marketing Purposes</h3>
@@ -105,8 +105,8 @@ export default function Privacy () {
             <h3>Unsubscribe or Opt-Out</h3>
 
                 <p>All users and visitors to our website have the option to discontinue receiving communications from us by way of email
-                    or newsletters. To discontinue or unsubscribe from our website please send an email that you wish to unsubscribe to
-                    <a href="mailto:unsubscribe@murrayelectric.com">unsubscribe@murrayelectric.com</a>. If you wish to unsubscribe or
+                    or newsletters. To discontinue or unsubscribe from our website please send an email that you wish to unsubscribe to &nbsp;
+                    <a className="text-midBlue" href="mailto:unsubscribe@murrayelectric.com">unsubscribe@murrayelectric.com</a>. If you wish to unsubscribe or
                     opt-out from any third-party websites, you must go to that specific website to unsubscribe or opt-out. Murray
                     Electric Corp. will continue to adhere to this Policy with respect to any personal information previously collected.
                 </p>
@@ -158,7 +158,7 @@ export default function Privacy () {
                 <p>If you have any questions or concerns regarding the Privacy Policy Agreement related to our website, please feel free
                     to contact us at the following email, telephone number, or mailing address:</p>
 
-                <p>Email: <a href="mailto:office@murrayelectric.com">office@murrayelectric.com</a></p>
+                <p>Email: <a className="text-midBlue" href="mailto:office@murrayelectric.com">office@murrayelectric.com</a></p>
                 <p>Telephone Number: 801489XXXX</p>
                 <p>Mailing Address:</p>
                 <p>Murray Electric Corp.</p>
@@ -175,7 +175,7 @@ export default function Privacy () {
                     party vendors; (iii) appoint a data protection officer for the company to monitor GDPR compliance; (iv) designate a
                     representative based in the EU under certain circumstances; and (v) have a protocol in place to handle a potential
                     data breach. For more details on how to make sure your company is fully compliant with GDPR, please visit the
-                    official website at <a href="https://gdpr.eu">https://gdpr.eu</a>. FormSwift and its subsidiaries are in no way
+                    official website at <a className="text-midBlue" href="https://gdpr.eu">https://gdpr.eu</a>. FormSwift and its subsidiaries are in no way
                     responsible for determining whether or not your company is in fact compliant with GDPR and takes no responsibility
                     for the use you make of this Privacy Policy or for any potential liability your company may face in relation to any
                     GDPR compliance issues.</p>
@@ -198,7 +198,7 @@ export default function Privacy () {
                     "direct notice" of your information practices before collecting information from their children; and (v) obtain the
                     parents' "verifiable consent" before collecting, using or disclosing personal information from a child. For more
                     information on the definition of these terms and how to make sure your website or online service is fully compliant
-                    with COPPA please visit <a
+                    with COPPA please visit <a className="text-midBlue"
                         href="https://www.ftc.gov/tips-advice/business-center/guidance/childrens-online-privacy-protection-rule-six-step-compliance">
                         https://www.ftc.gov/tips-advice/business-center/guidance/childrens-online-privacy-protection-rule-six-step-compliance</a>.
                     FormSwift and its subsidiaries are in no way responsible for determining whether or not your company is in fact

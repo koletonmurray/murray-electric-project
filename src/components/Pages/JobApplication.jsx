@@ -31,14 +31,12 @@ export default function JobApplication () {
         linkedinProfile: '',
         coverLetter: '',
         additionalInfo: '',
-        agree: false
+        applicationStatus: 'pending'  
     });
 
     const handleInputChange = (event) => {
-        const { name, type, checked, value } = event.target;
-        if (type === 'checkbox') {
-            setFormData({ ...formData, [name]: checked });
-        } else if (type === 'number') {
+        const { name, type, value } = event.target;
+        if (type === 'number') {
             const parsedValue = parseInt(value, 10);
             setFormData({ ...formData, [name]: isNaN(parsedValue) ? '' : parsedValue });
         } else {
@@ -79,8 +77,6 @@ export default function JobApplication () {
         tempErrors.workYearStart = data.workYearStart ? "" : errorMessage;
         tempErrors.workYearComplete = data.workYearComplete ? "" : errorMessage;
         tempErrors.jobDescription = data.jobDescription ? "" : errorMessage;
-
-        tempErrors.agree = data.agree ? !('checked') : "You must agree to proceed";
         
         setErrors(tempErrors);
         return Object.values(tempErrors).every(x => x === "");
@@ -88,31 +84,29 @@ export default function JobApplication () {
 
 
     const handleSubmit = async (event) => {
-    event.preventDefault();
+        event.preventDefault();
 
-    if (!validateForm(formData)) {
-        console.log("Validation failed");
-        return;
-    }
-
-    try {
-        const response = await fetch('http://localhost:3001/applications', {
-            method: 'POST',
-            body: JSON.stringify(formData),
-        });
-
-        if (response.ok) {
-            console.log('Application submitted successfully');
-            navigate('/success');
-        } else {
-            console.error('Submission failed');
-            // Optional: Update UI with an error message
+        if (!validateForm(formData)) {
+            console.log("Validation failed");
+            return;
         }
-    } catch (error) {
-        console.error('Error:', error);
-        // Optional: Update UI with an error message
-    }
-};
+
+        try {
+            const response = await fetch('http://localhost:3001/job-applications', {
+                method: 'POST',
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                console.log('Application submitted successfully');
+                navigate('/success');
+            } else {
+                console.error('Submission failed');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    };
 
 
 
@@ -200,8 +194,6 @@ export default function JobApplication () {
                                     helperText={errors.phone}
                                 />
                             </Grid>
-                            
-                            {/* Address Fields Expanded */}
                             <Grid item xs={12}>
                                 <Typography variant="h5" component="h1" gutterBottom className="text-center">
                                     Address
@@ -270,15 +262,16 @@ export default function JobApplication () {
                             </Grid>
                             <Grid item xs={12}>
                                 <FormControl fullWidth>
-                                <InputLabel id="position-select-label">Position *</InputLabel>
+                                    <InputLabel id="position-select-label">Position *</InputLabel>
                                     <Select
-                                    labelId="position-select-label"
-                                    id="position"
-                                    name="position"
-                                    value={formData.position}
-                                    onChange={handleInputChange}
-                                    error={!!errors.position}
-                                    required
+                                        labelId="position-select-label"
+                                        id="position"
+                                        label="Position *"
+                                        name="position"
+                                        value={formData.position}
+                                        onChange={handleInputChange}
+                                        error={!!errors.position}
+                                        required
                                     >
                                         <MenuItem value="Apprentice Electrician">Electrician - Apprentice</MenuItem>
                                         <MenuItem value="Journeyman Electrician">Electrician - Journeyman</MenuItem>
@@ -315,13 +308,13 @@ export default function JobApplication () {
                                 <FormControl fullWidth margin='normal'>
                                     <InputLabel id="degree-select-label">Degree/License *</InputLabel>
                                     <Select
+                                        required
                                         labelId="degree-select-label"
                                         id="degree"
                                         name='degree'
                                         value={formData.degree}
                                         label="Degree/License *"
                                         onChange={handleInputChange}
-                                        required
                                     >
                                         <MenuItem value="HighSchoolDiploma">High School Diploma</MenuItem>
                                         <MenuItem value="Certification">Certification</MenuItem>
@@ -556,20 +549,6 @@ export default function JobApplication () {
                                 onChange={handleInputChange}
                                 fullWidth
                                 margin="normal"
-                                />
-                            </Grid>
-                            <Grid item xs={12}>
-                                <FormControlLabel
-                                    control={
-                                        <Checkbox
-                                            name="agree"
-                                            checked={formData.agree}
-                                            onChange={handleInputChange}
-                                            color="primary"
-                                            required
-                                        />
-                                    }
-                                    label="I agree to the privacy policy linked at the bottom of the page"
                                 />
                             </Grid>
                             <Grid item xs={12}>

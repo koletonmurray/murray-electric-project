@@ -1,6 +1,41 @@
 {
-  "applications": [],
-  "projects": [
+  "job-applications": [
+    {
+      "id": "574e",
+      "firstName": "Koleton",
+      "lastName": "Murray",
+      "email": "koletonmurray7@gmail.com",
+      "phone": "3852838561",
+      "streetAddress": "15 S 1000 E",
+      "city": "Mapleton",
+      "state": "UT",
+      "zipCode": "84664",
+      "position": "Office",
+      "school": "BYU",
+      "degree": "Master's",
+      "fieldOfStudy": "IS",
+      "educationYearStart": 2019,
+      "educationYearComplete": 2025,
+      "skills": [
+        "I",
+        "am",
+        "a",
+        "legend",
+        "!"
+      ],
+      "jobTitle": "Web Dev",
+      "organization": "BYU Studies",
+      "workLocation": "Provo, UT",
+      "workYearStart": 2022,
+      "workYearComplete": 2024,
+      "jobDescription": "I do website stuff",
+      "linkedinProfile": "",
+      "coverLetter": "",
+      "additionalInfo": "",
+      "applicationStatus": "pending"
+    }
+  ],
+  "past-projects": [
     {
       "name": "BYU West View Building",
       "year_complete": 2020,
@@ -77,6 +112,57 @@
       "square_footage": null,
       "cost": 9500000,
       "id": "b26d"
+    }
+  ],
+  "request-services": [
+    {
+      "id": "3b0c",
+      "projectName": "TEST",
+      "projectType": "Commercial",
+      "budget": 1,
+      "streetAddress": "15 S 1000 E",
+      "city": "Mapleton",
+      "state": "UT",
+      "zipCode": "84664",
+      "startMonth": 1,
+      "startYear": 2024,
+      "completeMonth": 5,
+      "completeYear": 2024,
+      "projectDescription": "YEP THIS IS A TEST",
+      "firstName": "Koleton",
+      "lastName": "Murray",
+      "email": "koletonmurray7@gmail.com",
+      "phone": "3852838561",
+      "additionalInfo": "YES ",
+      "requestStatus": "pending"
+    },
+    {
+      "id": "305d",
+      "projectName": "TEST 2",
+      "projectType": "Residential",
+      "budget": 0,
+      "streetAddress": "15 S 1000 E",
+      "city": "Mapleton",
+      "state": "UT",
+      "zipCode": "84664",
+      "startMonth": 3,
+      "startYear": 2024,
+      "completeMonth": 8,
+      "completeYear": 2024,
+      "projectDescription": "YES THIS IS ANOTHER TEST",
+      "firstName": "Koleton",
+      "lastName": "Murray",
+      "email": "koletonmurray7@gmail.com",
+      "phone": "3852838561",
+      "additionalInfo": "Hi",
+      "requestStatus": "pending"
+    }
+  ],
+  "accounts": [
+    {
+      "username": "admin",
+      "password": "password",
+      "id": "dacb"
     }
   ]
 }

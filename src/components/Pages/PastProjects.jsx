@@ -8,14 +8,14 @@ import React, { useEffect, useState, useMemo } from 'react';
     the header that it will resort the data by that column ascending. Please help me accomplish this.
 */
 
-export default function Projects() {
+export default function PastProjects() {
     const [projects, setProjects] = useState([]);
     const [sortConfig, setSortConfig] = useState({ key: null, direction: 'ascending' });
 
     useEffect(() => {
         const getProjects = async () => {
             try {
-                const result = await fetch('http://localhost:3001/projects', {
+                const result = await fetch('http://localhost:3001/past-projects', {
                     method: 'GET',
                 });
                 const jsonResult = await result.json();
@@ -74,9 +74,9 @@ export default function Projects() {
     return (
         <>
             <h1>Noteworthy Projects</h1>
-            <div className="max-w-4xl mx-auto my-10 sm:px-8">
+            <div className="max-w-4xl mx-auto my-10 px-8">
                 <p className="pb-6 text-left">
-                    Below is a list of noteworthy projects we've undertaken. You can sort the projects by clicking on any of the column headers (Project, Year Complete, Square Footage, or Cost). Clicking a column header will toggle between ascending and descending ordering of that column.
+                    Below is a list of noteworthy projects we've undertaken. You can sort the projects by clicking on any of the column headers (Project, Year Complete, Square Footage, or Cost). <br/><br/><b>* Clicking a column header will toggle between ascending and descending ordering of that column.</b>
                 </p>
                 <table className="text-left w-full">
                     <thead>

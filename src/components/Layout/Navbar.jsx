@@ -12,7 +12,7 @@ export default function NavBar({routes}) {
             {routes.map((route) => (
               <li
                 key={route.label}
-                className={`${location.pathname === route.path ? 'underline decoration-2 underline-offset-8 text-yellow' : 'text-white hover:text-yellow'} transition-all duration-300 ease-in-out hover:underline hover:decoration-2 hover:underline-offset-4`}
+                className={`${location.pathname === route.path ? 'underline decoration-2 underline-offset-8 text-yellow' : 'text-white hover:text-yellow'} transition-all duration-300 ease-in-out hover:underline hover:decoration-2 hover:underline-offset-4 list-none`}
               >
                 <Link to={route.path} className="relative inline-block">
                   {route.label}
