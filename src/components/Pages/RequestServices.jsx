@@ -93,15 +93,14 @@ export default function RequestServices () {
 
                 <div className="max-w-4xl mx-auto my-10 p-8 bg-white shadow-md rounded-lg">
                     <div className="text-left text-black px-2 md:px-7">
-                        <p>We're thrilled that you're interested in joining our team. To start, please fill out the form below. This application is your first step towards a promising career path with our company.</p>
+                        <p>We're excited that you're considering our services for your project needs. To begin, please complete the form below. Your submission is the first step towards realizing your project with our expert electrical team.</p>
                         <ul className='list-disc'>
-                            <li><strong>Be Detailed:</strong> Provide as much information as possible in each section. The more we know about you, the better we can assess your fit with our team.</li>
-                            <li><strong>Educational Background:</strong> Your educational journey is important to us. Please include information about your schooling, any degrees or licenses you've obtained, and your field of study.</li>
-                            <li><strong>Experience Matters:</strong> Share your most relevant or recent work experience. We're interested in understanding where you've been and what you've accomplished.</li>
-                            <li><strong>Highlight Your Skills:</strong> We're eager to learn about your top five skills. Think about what makes you stand out and how your skills can benefit our team.</li>
-                            <li><strong>Upload Your Resume:</strong> Don't forget to attach your most recent resume. If applicable, include any certifications or licenses that are relevant to the position you're applying for in your resume.</li>
+                            <li><strong>Be Detailed:</strong> In each section of the form, provide as much detail as possible. The more information you share about your project and requirements, the better we can tailor our services to meet your needs.</li>
+                            <li><strong>Project Information:</strong> Please provide comprehensive details about your project, including the type, scope, and specific requirements. Include the projected start and completion dates, and any pertinent information that will help us understand the scale and objectives of your project.</li>
+                            <li><strong>Contact Information:</strong> Don't forget to include the full name, phone number, and email address for the project point-of-contact so we can easily communicate with you regarding your request.</li>
+                            <li><strong>Additional Information:</strong> If there's anything else you think we should know or consider about your project or your expectations from our services, please include this information as well.</li>
                         </ul>
-                        <p className=''>After submitting your application, our hiring team will review your information and reach out to you regarding the next steps. We appreciate your interest in joining us and look forward to learning more about you.</p>
+                        <p className='pt-7'>After submitting your request, our team will review your details and get in touch with you about the next steps. We value your interest in our services and are eager to contribute to your project's success.</p>
                         <p>Let's get started!</p>
                     </div>
 
@@ -327,7 +326,7 @@ export default function RequestServices () {
 
                         <Grid item xs={12}>
                             <Typography variant="h4" component="h1" gutterBottom className="text-center">
-                                Project Point of Contact
+                                Project Point-of-Contact
                             </Typography>
                         </Grid>
                         <Grid container spacing={3}>

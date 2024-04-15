@@ -38,7 +38,9 @@ export default function LoginForm () {
   return (
     <>
       <h1>Login</h1>
+      
       <div className="max-w-2xl mx-auto my-10 p-8 bg-white shadow-md rounded-lg">
+        <p className='text-left py-3'>For admin functionality, you must login with your pre-assigned login information.</p>
         <form onSubmit={handleSubmit} noValidate autoComplete="off">
           <Grid container spacing={3}>
             <Grid item xs={12}>

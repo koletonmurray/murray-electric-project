@@ -124,7 +124,7 @@ export default function JobApplication () {
                             <li><strong>Highlight Your Skills:</strong> We're eager to learn about your top five skills. Think about what makes you stand out and how your skills can benefit our team.</li>
                             <li><strong>Upload Your Resume:</strong> Don't forget to attach your most recent resume. If applicable, include any certifications or licenses that are relevant to the position you're applying for in your resume.</li>
                         </ul>
-                        <p className=''>After submitting your application, our hiring team will review your information and reach out to you regarding the next steps. We appreciate your interest in joining us and look forward to learning more about you.</p>
+                        <p className='pt-7'>After submitting your application, our hiring team will review your information and reach out to you regarding the next steps. We appreciate your interest in joining us and look forward to learning more about you.</p>
                         <p>Let's get started!</p>
                     </div>
 

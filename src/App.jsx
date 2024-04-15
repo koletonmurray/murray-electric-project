@@ -44,7 +44,7 @@ function App() {
               <Route path='/admin' element={<Admin/>}/>
               <Route path='/apply' element={<JobApplication/>}/>
               <Route path='/contact-us' element={<ContactUs/>}/>
-              <Route path='login' element={<LoginForm />} />
+              <Route path='/login' element={<LoginForm />} />
               <Route path='/logout' element={<Logout/>}/>
               <Route path='/privacy' element={<Privacy/>}/>
               <Route path='/projects' element={<PastProjects/>}/>
