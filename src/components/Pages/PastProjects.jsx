@@ -81,8 +81,8 @@ export default function PastProjects() {
             <h1>Noteworthy Projects</h1>
             <div className="max-w-4xl mx-auto my-10 px-8">
                 <p className="pb-6 text-left">
-                    Below is a list of noteworthy projects we've undertaken over our decades of electrical work. You can sort the projects
-                    by clicking on any of the column headers (Project, Year Complete, Square Footage, or Contracted Amount). <br/><br/><b>
+                    Below is a list of noteworthy projects we've undertaken over our decades of electrical contracting. You can sort the projects
+                    by clicking on any of the column headers (Year Complete, Project, Contracted Amount, or Contractor). <br/><br/><b>
                     * Clicking a column header will toggle between ascending and descending ordering of that column.</b>
                 </p>
                 <table className="text-left w-full">
