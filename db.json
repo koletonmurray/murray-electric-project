@@ -37,81 +37,532 @@
   ],
   "past-projects": [
     {
-      "name": "BYU West View Building",
-      "year_complete": 2020,
-      "square_footage": 50500,
-      "cost": null,
-      "id": "5721"
+      "year_complete": "1981",
+      "project_name": "General Medical Cent (Doctors Offices)",
+      "contracted_amount": "20078",
+      "contractor": "Blayne Stevens Construction - Provo"
     },
     {
-      "name": "UVU Lehi Campus Building",
-      "year_complete": 2024,
-      "square_footage": 103000,
-      "cost": null,
-      "id": "7b4b"
+      "year_complete": "1981",
+      "project_name": "American Fork Wellhouse (Culinary)",
+      "contracted_amount": "25678",
+      "contractor": "Nelson Brothers Construction - SLC"
     },
     {
-      "name": "Nebo Bus Compound",
-      "year_complete": 2019,
-      "square_footage": 1000,
-      "cost": null,
-      "id": "be76"
+      "year_complete": "1981",
+      "project_name": "BYU Snell Building Addition",
+      "contracted_amount": "27072",
+      "contractor": "A & B Plumbing - SLC"
     },
     {
-      "name": "BYU Heritage Halls Central Building",
-      "year_complete": 2017,
-      "square_footage": 35679,
-      "cost": null,
-      "id": "dd55"
+      "year_complete": "1981",
+      "project_name": "Granite 1st & 8th Ward (Chapel)",
+      "contracted_amount": "68740",
+      "contractor": "Inkley Construction - SLC"
     },
     {
-      "name": "BYU Store Renovation Project",
-      "year_complete": 2019,
-      "square_footage": 24000,
-      "cost": null,
-      "id": "ee1e"
+      "year_complete": "1981",
+      "project_name": "Crescent 16th Ward (Chapel)",
+      "contracted_amount": "71900",
+      "contractor": "Broderick & Howell - Orem"
     },
     {
-      "name": "BYU Cougareat Renovation Project",
-      "year_complete": 2019,
-      "square_footage": 100000,
-      "cost": null,
-      "id": "cd4e"
+      "year_complete": "1981",
+      "project_name": "BYU Ellsworth Building - (Meat Packing)",
+      "contracted_amount": "259845",
+      "contractor": "Far West Construction - SLC"
     },
     {
-      "name": "BYU Sorenson Center Remodel",
-      "year_complete": 2022,
-      "square_footage": 8000,
-      "cost": 750000,
-      "id": "588a"
+      "year_complete": "1981",
+      "project_name": "Timpview High School Addition (Auditorium)",
+      "contracted_amount": "316256",
+      "contractor": "Tekton Inc. - SLC"
     },
     {
-      "name": "Orem UDC Corrections Center",
-      "year_complete": 2022,
-      "square_footage": null,
-      "cost": 7900000,
-      "id": "81c8"
+      "year_complete": "1982",
+      "project_name": "Fitts Park - SLC",
+      "contracted_amount": "37493",
+      "contractor": "Allstate Builders - SLC"
     },
     {
-      "name": "UVU Alumni Orem",
-      "year_complete": 2023,
-      "square_footage": 31400,
-      "cost": 4500000,
-      "id": "10d8"
+      "year_complete": "1982",
+      "project_name": "Clark Auditorium - UVRMC (Provo)",
+      "contracted_amount": "40404",
+      "contractor": "Far West Builders - SLC"
     },
     {
-      "name": "UCCU Vineyard",
-      "year_complete": 2022,
-      "square_footage": 2500,
-      "cost": null,
-      "id": "477f"
+      "year_complete": "1982",
+      "project_name": "North Gate Shopping Center-Spanish Fork",
+      "contracted_amount": "69186",
+      "contractor": "The Boyer Company - SLC"
     },
     {
-      "name": "American Heritage Renovation",
-      "year_complete": 2021,
-      "square_footage": null,
-      "cost": 9500000,
-      "id": "b26d"
+      "year_complete": "1982",
+      "project_name": "BYU Heber J Grant Bldg. Renovation",
+      "contracted_amount": "94442",
+      "contractor": "Warner & Kendrick - SLC"
+    },
+    {
+      "year_complete": "1982",
+      "project_name": "Equipt Test Facility - Tooele Army Depot",
+      "contracted_amount": "224306",
+      "contractor": "Allstate Builders / Eves Electric Inc."
+    },
+    {
+      "year_complete": "1982",
+      "project_name": "Albertson's Shopping Center - SLC",
+      "contracted_amount": "272891",
+      "contractor": "Blaine L. Wadman - SLC"
+    },
+    {
+      "year_complete": "1982",
+      "project_name": "American Fork High School Addition",
+      "contracted_amount": "489136",
+      "contractor": "Broderick & Howell - Orem"
+    },
+    {
+      "year_complete": "1983",
+      "project_name": "Cottontree Complex - Motel & Office Bldgs",
+      "contracted_amount": "210235",
+      "contractor": "M&C Construction - Provo"
+    },
+    {
+      "year_complete": "1983",
+      "project_name": "Santaquin Elementary School - Santaquin",
+      "contracted_amount": "245557",
+      "contractor": "Broderick & Howell - Orem"
+    },
+    {
+      "year_complete": "1983",
+      "project_name": "Canyon Crest Elem. School - Orem",
+      "contracted_amount": "281784",
+      "contractor": "Charles LeBaron & Associates - AF"
+    },
+    {
+      "year_complete": "1983",
+      "project_name": "West Valley Youth Detention Facility",
+      "contracted_amount": "339901",
+      "contractor": "Stallings Construction - SLC"
+    },
+    {
+      "year_complete": "1984",
+      "project_name": "Grandview / Franklin Fire Alarm Upgrade",
+      "contracted_amount": "65071",
+      "contractor": "Eves Electric Inc. - Mapleton"
+    },
+    {
+      "year_complete": "1984",
+      "project_name": "Brockbank Elementary School Addition-S.F.",
+      "contracted_amount": "78499",
+      "contractor": "Goble Construction - Mapleton"
+    },
+    {
+      "year_complete": "1984",
+      "project_name": "SLC-Alta Canyon Recreation Center",
+      "contracted_amount": "130822",
+      "contractor": "Steve Tripp Construction - SLC"
+    },
+    {
+      "year_complete": "1985",
+      "project_name": "Spanish Fork West & South Stake Centers",
+      "contracted_amount": "173045",
+      "contractor": "Broderick & Howell - Orem"
+    },
+    {
+      "year_complete": "1986",
+      "project_name": "UP&L Addition - A.F.",
+      "contracted_amount": "49304",
+      "contractor": "Griffeth Brother - SLC"
+    },
+    {
+      "year_complete": "1988",
+      "project_name": "Munitions Support Facility - Dougway",
+      "contracted_amount": "238612",
+      "contractor": "Projects Unlimited - SLC"
+    },
+    {
+      "year_complete": "1988",
+      "project_name": "O&M Building CVWRF (Wastewater Plant) -",
+      "contracted_amount": "432326",
+      "contractor": "Jacobsen & Robbins - SLC"
+    },
+    {
+      "year_complete": "1989",
+      "project_name": "Administration & Lab Building - CVWRF",
+      "contracted_amount": "368155",
+      "contractor": "Hogan & Tingey - Centerville"
+    },
+    {
+      "year_complete": "1990",
+      "project_name": "Final Site Work - CVWRF",
+      "contracted_amount": "395835",
+      "contractor": "Allstate Builders - SLC"
+    },
+    {
+      "year_complete": "1991",
+      "project_name": "Headworks Bldg-Provo Wastewater Plant",
+      "contracted_amount": "126241",
+      "contractor": "Gilbert Western Corp. - SLC"
+    },
+    {
+      "year_complete": "1991",
+      "project_name": "State Medical Examiners Fac. - SLC",
+      "contracted_amount": "266426",
+      "contractor": "Car Construction Inc. - SLC"
+    },
+    {
+      "year_complete": "1992",
+      "project_name": "Adult Deaf Community Center - SLC",
+      "contracted_amount": "216786",
+      "contractor": "Thiede Construction Inc.- SLC"
+    },
+    {
+      "year_complete": "1993",
+      "project_name": "Independence High School - Provo",
+      "contracted_amount": "244255",
+      "contractor": "K&P Inc. - Provo"
+    },
+    {
+      "year_complete": "1994",
+      "project_name": "BYU Varsity Theater",
+      "contracted_amount": "74372",
+      "contractor": "CAL Wadsworth Construction - SLC"
+    },
+    {
+      "year_complete": "1995",
+      "project_name": "Young Adult Chapel Correctional- Draper",
+      "contracted_amount": "128478",
+      "contractor": "Weyher Brothers Company - SLC"
+    },
+    {
+      "year_complete": "1995",
+      "project_name": "Brookside Elementary School - Springville",
+      "contracted_amount": "157797",
+      "contractor": "Gramoll Construction Company - SLC"
+    },
+    {
+      "year_complete": "1995",
+      "project_name": "Adult Psychiatric Care Cafeteria-Provo",
+      "contracted_amount": "217860",
+      "contractor": "Interwest Construction - SLC"
+    },
+    {
+      "year_complete": "1996",
+      "project_name": "Nephi Church Addition",
+      "contracted_amount": "16993",
+      "contractor": "Bruce Nelson Construction - Springville"
+    },
+    {
+      "year_complete": "1996",
+      "project_name": "Mona Church Addition",
+      "contracted_amount": "66814",
+      "contractor": "Garff Construction - SLC"
+    },
+    {
+      "year_complete": "1997",
+      "project_name": "Wellington Church Addition",
+      "contracted_amount": "61313",
+      "contractor": "Terrell Pack Construction -SLC"
+    },
+    {
+      "year_complete": "1997",
+      "project_name": "Lindon City Center",
+      "contracted_amount": "84939",
+      "contractor": "Hales & Warner Const. - Spanish Fork"
+    },
+    {
+      "year_complete": "1999",
+      "project_name": "Orem Institute - UVSC",
+      "contracted_amount": "642324",
+      "contractor": "R&O Construction - Ogden"
+    },
+    {
+      "year_complete": "2000",
+      "project_name": "South East Recreation Center",
+      "contracted_amount": "564633",
+      "contractor": "Interwest Construction - SLC"
+    },
+    {
+      "year_complete": "2001",
+      "project_name": "BYU Smith Field House",
+      "contracted_amount": "17512",
+      "contractor": "Broderick & Henderson - Orem"
+    },
+    {
+      "year_complete": "2001",
+      "project_name": "BYU Richards Fire Alarm Upgrade",
+      "contracted_amount": "129930",
+      "contractor": "The B. L. Murray Corp - Mapleton"
+    },
+    {
+      "year_complete": "2002",
+      "project_name": "BYU Generator Ventilation",
+      "contracted_amount": "2408",
+      "contractor": "Paulsen Constriction - SLC"
+    },
+    {
+      "year_complete": "2002",
+      "project_name": "BYU Visual Arts Classroom",
+      "contracted_amount": "11498",
+      "contractor": "Paulsen Construction - SLC"
+    },
+    {
+      "year_complete": "2002",
+      "project_name": "BYU SFLC Moves To UVSC ",
+      "contracted_amount": "71827",
+      "contractor": "Kay General Contracting - Payson "
+    },
+    {
+      "year_complete": "2002",
+      "project_name": "BYU McKay Building Phase 2",
+      "contracted_amount": "433875",
+      "contractor": "CAL Wadsworth Construction - Draper"
+    },
+    {
+      "year_complete": "2003",
+      "project_name": "BYU Dairy Lab",
+      "contracted_amount": "14057",
+      "contractor": "Chad Broderick Const. - Orem"
+    },
+    {
+      "year_complete": "2003",
+      "project_name": "BYU AXMB Fire Alarm",
+      "contracted_amount": "34300",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2003",
+      "project_name": "Maple Meadows Stake Center",
+      "contracted_amount": "196486",
+      "contractor": "Westland Construction - Provo"
+    },
+    {
+      "year_complete": "2004",
+      "project_name": "BYU Marriott Locker Room",
+      "contracted_amount": "31166",
+      "contractor": "Chad Broderick Const - Orem"
+    },
+    {
+      "year_complete": "2004",
+      "project_name": "BYU Fire Alarm Upgrade Marriott Center",
+      "contracted_amount": "171007",
+      "contractor": "The B. L. Murray Corp.- Mapleton"
+    },
+    {
+      "year_complete": "2004",
+      "project_name": "BYU Fire Alarm Upgrade Lavell Edwards Stadium",
+      "contracted_amount": "315250",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2004",
+      "project_name": "Amber Day Star Park City",
+      "contracted_amount": "79584",
+      "contractor": "MDP Construction - Springville"
+    },
+    {
+      "year_complete": "2005",
+      "project_name": "BYU SFH Event Lighting",
+      "contracted_amount": "34729",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2005",
+      "project_name": "Provo Craft Warehouse",
+      "contracted_amount": "112778",
+      "contractor": "MDP Construction - Springville"
+    },
+    {
+      "year_complete": "2005",
+      "project_name": "Fairview Waste Water Treatment Plant",
+      "contracted_amount": "343638",
+      "contractor": "Weyher Construction Company - SLC"
+    },
+    {
+      "year_complete": "2005",
+      "project_name": "BYU Power Upgrade Lavell Edwards Stadium",
+      "contracted_amount": "372000",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2006",
+      "project_name": "BYU Data Fire Alarm",
+      "contracted_amount": "64305",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2006",
+      "project_name": "BYU Chiller",
+      "contracted_amount": "67152",
+      "contractor": "Brown Plumbing - Provo"
+    },
+    {
+      "year_complete": "2007",
+      "project_name": "BYU LVES Improvements",
+      "contracted_amount": "136015",
+      "contractor": "Peck - Ormsby Construction - Lehi"
+    },
+    {
+      "year_complete": "2007",
+      "project_name": "BYU Harmon Fire Alarm",
+      "contracted_amount": "160931",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2007",
+      "project_name": "BYU SASB Fire Alarm",
+      "contracted_amount": "191393",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2007",
+      "project_name": "BYU Crabtree Ceiling Replacement",
+      "contracted_amount": "248433",
+      "contractor": "Broderick & Henderson"
+    },
+    {
+      "year_complete": "2007",
+      "project_name": "BYU Ellsworth Building",
+      "contracted_amount": "788964",
+      "contractor": "Westland Construction - Orem"
+    },
+    {
+      "year_complete": "2007",
+      "project_name": "BYU JKB Building",
+      "contracted_amount": "1969813",
+      "contractor": "Jacobsen Construction - Salt Lake City"
+    },
+    {
+      "year_complete": "2008",
+      "project_name": "BYU Tanner Outlets",
+      "contracted_amount": "36699",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2008",
+      "project_name": "BYU Mooris Building",
+      "contracted_amount": "54695",
+      "contractor": "Broderick & Henderson"
+    },
+    {
+      "year_complete": "2008",
+      "project_name": "BYU Electrical Vault Lids",
+      "contracted_amount": "76651",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2008",
+      "project_name": "BYU B-49 Maxwell Building",
+      "contracted_amount": "87713",
+      "contractor": "Peck Ormsby Construction"
+    },
+    {
+      "year_complete": "2008",
+      "project_name": "BYU HBLL Power Upgrade",
+      "contracted_amount": "115401",
+      "contractor": "The B. L. Murray Corp. - Mapleton"
+    },
+    {
+      "year_complete": "2008",
+      "project_name": "BYU Intramural Field",
+      "contracted_amount": "129959",
+      "contractor": "Peck - Ormsby Construction - Lehi"
+    },
+    {
+      "year_complete": "2008",
+      "project_name": "Provo High School Phase 2",
+      "contracted_amount": "207797",
+      "contractor": "Hales & Warner Construction"
+    },
+    {
+      "year_complete": "2009",
+      "project_name": "Hunter Power Plant Control Room",
+      "contracted_amount": "28794",
+      "contractor": "Layton Construction"
+    },
+    {
+      "year_complete": "2009",
+      "project_name": "Camp Williams Building 5080",
+      "contracted_amount": "67094",
+      "contractor": "Keller Construction"
+    },
+    {
+      "year_complete": "2009",
+      "project_name": "Maple Mt Seminary",
+      "contracted_amount": "107270",
+      "contractor": "Zwick Construction"
+    },
+    {
+      "year_complete": "2009",
+      "project_name": "Deseret Book University Mall",
+      "contracted_amount": "114690",
+      "contractor": "Zwick Construction"
+    },
+    {
+      "year_complete": "2009",
+      "project_name": "Saratoga Seminary Building",
+      "contracted_amount": "121538",
+      "contractor": "Hales & Warner Construction"
+    },
+    {
+      "year_complete": "2009",
+      "project_name": "UVU Noorda Theatre",
+      "contracted_amount": "495529",
+      "contractor": "Keller Construction"
+    },
+    {
+      "year_complete": "2010",
+      "project_name": "BYU OIT",
+      "contracted_amount": "326478",
+      "contractor": "BYU OIT"
+    },
+    {
+      "year_complete": "2017",
+      "project_name": "BYU Heritage Halls Central Building"
+    },
+    {
+      "year_complete": "2019",
+      "project_name": "BYU Cougareat Renovation Project"
+    },
+    {
+      "year_complete": "2019",
+      "project_name": "BYU Store Renovation Project"
+    },
+    {
+      "year_complete": "2019",
+      "project_name": "Nebo Bus Compound"
+    },
+    {
+      "year_complete": "2020",
+      "project_name": "BYU West View Building"
+    },
+    {
+      "year_complete": "2021",
+      "project_name": "American Heritage Renovation",
+      "contracted_amount": "9500000"
+    },
+    {
+      "year_complete": "2022",
+      "project_name": "BYU Sorenson Center Remodel",
+      "contracted_amount": "750000"
+    },
+    {
+      "year_complete": "2022",
+      "project_name": "Orem UDC Corrections Center",
+      "contracted_amount": "7900000"
+    },
+    {
+      "year_complete": "2022",
+      "project_name": "UCCU Vineyard"
+    },
+    {
+      "year_complete": "2023",
+      "project_name": "UVU Alumni Orem",
+      "contracted_amount": "4500000"
+    },
+    {
+      "year_complete": "2024",
+      "project_name": "UVU Lehi Campus Building"
     }
   ],
   "request-services": [
@@ -161,8 +612,12 @@
   "accounts": [
     {
       "username": "admin",
-      "password": "password",
+      "password": "HangryElf123",
       "id": "dacb"
+    }, 
+    {
+      "username": "koletonm",
+      "password": "koletonm"
     }
   ]
 }

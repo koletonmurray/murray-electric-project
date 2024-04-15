@@ -32,10 +32,19 @@ export default function PastProjects() {
         let sortableItems = [...projects];
         if (sortConfig !== null) {
             sortableItems.sort((a, b) => {
-                if (a[sortConfig.key] < b[sortConfig.key]) {
+                let valueA = a[sortConfig.key];
+                let valueB = b[sortConfig.key];
+
+                // Special handling for numeric values stored as strings
+                if (sortConfig.key === 'contracted_amount') {
+                    valueA = parseInt(valueA, 10);
+                    valueB = parseInt(valueB, 10);
+                }
+
+                if (valueA < valueB) {
                     return sortConfig.direction === 'ascending' ? -1 : 1;
                 }
-                if (a[sortConfig.key] > b[sortConfig.key]) {
+                if (valueA > valueB) {
                     return sortConfig.direction === 'ascending' ? 1 : -1;
                 }
                 return 0;
@@ -43,6 +52,7 @@ export default function PastProjects() {
         }
         return sortableItems;
     }, [projects, sortConfig]);
+
 
     const requestSort = (key) => {
         let direction = 'ascending';
@@ -59,10 +69,6 @@ export default function PastProjects() {
         }).format(value) : '-';
     }
 
-    function commaFormat(value) {
-        return value ? new Intl.NumberFormat('en-US').format(value) : '-';
-    }
-
     const getHeaderClass = (key) => {
         const baseClasses = "w-1/4 p-4 cursor-pointer hover:text-yellow transition-all duration-300 ease-in-out";
         const activeClasses = "underline decoration-2 underline-offset-8 hover:underline-offset-4 text-yellow";
@@ -70,30 +76,31 @@ export default function PastProjects() {
         return `${baseClasses} ${sortConfig.key === key ? activeClasses : inactiveClasses}`;
     };
 
-
     return (
         <>
             <h1>Noteworthy Projects</h1>
             <div className="max-w-4xl mx-auto my-10 px-8">
                 <p className="pb-6 text-left">
-                    Below is a list of noteworthy projects we've undertaken. You can sort the projects by clicking on any of the column headers (Project, Year Complete, Square Footage, or Cost). <br/><br/><b>* Clicking a column header will toggle between ascending and descending ordering of that column.</b>
+                    Below is a list of noteworthy projects we've undertaken over our decades of electrical work. You can sort the projects
+                    by clicking on any of the column headers (Project, Year Complete, Square Footage, or Contracted Amount). <br/><br/><b>
+                    * Clicking a column header will toggle between ascending and descending ordering of that column.</b>
                 </p>
                 <table className="text-left w-full">
                     <thead>
                         <tr className="bg-darkBlue text-white">
-                            <th className={`${getHeaderClass('name')} text-left`} onClick={() => requestSort('name')}>Project</th>
-                            <th className={`${getHeaderClass('year_complete')} text-center`} onClick={() => requestSort('year_complete')}>Year Complete</th>
-                            <th className={`${getHeaderClass('square_footage')} text-right`} onClick={() => requestSort('square_footage')}>Square Footage</th>
-                            <th className={`${getHeaderClass('cost')} text-right`} onClick={() => requestSort('cost')}>Cost</th>
+                            <th className={`${getHeaderClass('year_complete')} text-left`} onClick={() => requestSort('year_complete')}>Year Complete</th>
+                            <th className={`${getHeaderClass('project_name')} text-left`} onClick={() => requestSort('project_name')}>Project</th>
+                            <th className={`${getHeaderClass('contracted_amount')} text-right`} onClick={() => requestSort('contracted_amount')}>Contracted Amount</th>
+                            <th className={`${getHeaderClass('contractor')} text-right`} onClick={() => requestSort('contractor')}>Contractor</th>
                         </tr>
                     </thead>
                     <tbody>
                         {sortedProjects.map((project, index) => (
                             <tr key={index} className={index % 2 === 0 ? "bg-gray-200" : "bg-white-100"}>
-                                <td className="px-4 py-3">{project.name}</td>
-                                <td className="p-3 text-center">{project.year_complete}</td>
-                                <td className="p-3 text-right">{commaFormat(project.square_footage)}</td>
-                                <td className="px-4 text-right">{moneyFormat(project.cost)}</td>
+                                <td className="p-3 text-left">{project.year_complete}</td>
+                                <td className="px-4 py-3">{project.project_name}</td>
+                                <td className="px-4 text-right">{moneyFormat(project.contracted_amount)}</td>
+                                <td className="p-3 text-right">{project.contractor}</td>
                             </tr>
                         ))}
                     </tbody>
