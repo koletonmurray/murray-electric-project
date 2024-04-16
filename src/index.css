@@ -62,3 +62,48 @@ li {
     left: 5px;
     padding-top: 2px;
 }
+
+/*
+    Chat GPT helped me create the following css rules to turn my table into row-cards for
+    better mobile view of the table data. It's not perfect, but it is a much better view
+    than a table that goes off the screen and ruins the entire page layout.
+*/
+
+td {
+    padding: .75rem;
+}
+
+@media (max-width: 600px) {
+    table, thead,
+    tbody, th, td,
+    tr {
+        display: block;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    td {
+        border: none;
+        position: relative;
+        padding: 0;
+        padding-left: 40%;
+        padding-right: 5px;
+        text-align: right;
+        min-height: 40px;
+    }
+
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        top: 0;
+        left: 10px;
+        width: 35%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+    }
+}

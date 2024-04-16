@@ -79,8 +79,8 @@ export default function PastProjects() {
     return (
         <>
             <h1>Noteworthy Projects</h1>
-            <div className="max-w-4xl mx-auto my-10 px-8">
-                <p className="pb-6 text-left">
+            <div className="max-w-4xl mx-auto my-10 px-2 sm:px-8">
+                <p className="pb-6 text-left px-6 sm:px-0">
                     Below is a list of noteworthy projects we've undertaken over our decades of electrical contracting. You can sort the projects
                     by clicking on any of the column headers (Year Complete, Project, Contracted Amount, or Contractor). <br/><br/><b>
                     * Clicking a column header will toggle between ascending and descending ordering of that column.</b>
@@ -96,11 +96,13 @@ export default function PastProjects() {
                     </thead>
                     <tbody>
                         {sortedProjects.map((project, index) => (
-                            <tr key={index} className={index % 2 === 0 ? "bg-gray-200" : "bg-white-100"}>
-                                <td className="p-3 text-left">{project.year_complete}</td>
-                                <td className="px-4 py-3">{project.project_name}</td>
-                                <td className="px-4 text-right">{moneyFormat(project.contracted_amount)}</td>
-                                <td className="p-3 text-right">{project.contractor}</td>
+                            <tr key={index} className={index % 2 === 0 ? "bg-gray-200 py-2" : "bg-white-100 py-2"}>
+                                <td data-label="Year Complete">{project.year_complete}</td>
+                                <td data-label="Project">{project.project_name}</td>
+                                <td data-label="Contracted Amount" className="text-right">
+                                    {moneyFormat(project.contracted_amount)}
+                                </td>
+                                <td data-label="Contractor" className="text-right">{project.contractor}</td>
                             </tr>
                         ))}
                     </tbody>
