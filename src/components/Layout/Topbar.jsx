@@ -49,7 +49,7 @@ function Topbar({ setOpen, admin = false }) {
             </div>
           </div>
           <Link to={'/admin'}>
-            <h1 className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 h-[8em] pt-2 text-yellow font-medium">Admin</h1>
+            <h1 className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 h-[1em] pt-2 text-yellow font-medium">Admin</h1>
           </Link>
 
           <div className='hidden sm:flex justify-end items-center flex-1'>

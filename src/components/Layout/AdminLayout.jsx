@@ -8,6 +8,22 @@ const routes = [
     {
       label: "Return to Main Site",
       path: "/",
+    },
+    {
+      label: "Admin Dashboard",
+      path: "/admin",
+    },
+    {
+      label: "Manage Access",
+      path: "/admin/manage-access",
+    },
+    {
+      label: "Job Applciations",
+      path: "/admin/job-applications",
+    },
+    {
+      label: "Service Requests",
+      path: "/admin/service-requests",
     }
   ];
 

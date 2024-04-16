@@ -18,6 +18,9 @@ import PrivateRoute from './components/PrivateRoute';
 import Admin from './components/Pages/Admin';
 import AdminLayout from './components/Layout/AdminLayout';
 import Logout from './components/Pages/Logout';
+import ManageAccess from './components/Pages/ManageAccess';
+import ReviewApplications from './components/Pages/ReviewApplications';
+import ReviewRequests from './components/Pages/ReviewRequests';
 
 
 function App() {
@@ -31,6 +34,9 @@ function App() {
               <Routes>
                 <Route path="/" element={<Admin />} />
                 <Route path="/*" element={<Admin />} />
+                <Route path="/job-applications" element={<ReviewApplications />} />
+                <Route path="/manage-access" element={<ManageAccess />} />
+                <Route path="/service-requests" element={<ReviewRequests />} />
               </Routes>
             </AdminLayout>
           </PrivateRoute>
