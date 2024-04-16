@@ -6,8 +6,20 @@ export const AuthProvider = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const login = async (username, password) => {
-    setIsLoggedIn(true);
-    return true;
+    try {
+      const response = await fetch(`http://localhost:3001/accounts?username=${username}&password=${password}`);
+      const users = await response.json();
+
+      if (users.length > 0) {
+        setIsLoggedIn(true);
+        return true;
+      } else {
+        return false;
+      }
+    } catch (error) {
+      console.error('Login error:', error);
+      return false;
+    }
   };
 
   const logout = () => {
