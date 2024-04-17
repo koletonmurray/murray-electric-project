@@ -21,6 +21,7 @@ import Logout from './components/Pages/Logout';
 import ManageAccess from './components/Pages/ManageAccess';
 import ReviewApplications from './components/Pages/ReviewApplications';
 import ReviewRequests from './components/Pages/ReviewRequests';
+import ApplciationDetails from './components/Pages/ApplicationDetails';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
                 <Route path="/job-applications" element={<ReviewApplications />} />
                 <Route path="/manage-access" element={<ManageAccess />} />
                 <Route path="/service-requests" element={<ReviewRequests />} />
+                <Route path='/application/:id' element={<ApplciationDetails/>} />
               </Routes>
             </AdminLayout>
           </PrivateRoute>

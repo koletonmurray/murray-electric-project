@@ -21,7 +21,7 @@ export default function ManageAccess() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ username }),
+      body: JSON.stringify({ username, password }),
     })
       .then(response => response.json())
       .then(data => {
@@ -56,7 +56,7 @@ export default function ManageAccess() {
       <h1>Manage Access</h1>
       <div style={{ maxWidth: '600px', margin: 'auto' }}>
         <Paper style={{ padding: '20px', marginBottom: '20px' }}>
-            <Typography>Create a New Admin Account</Typography>
+          <Typography variant='h5'>Create a New Admin Account</Typography>
           <form onSubmit={handleSubmit}>
             <TextField
               label="New Username"
@@ -87,6 +87,7 @@ export default function ManageAccess() {
         <div className='p-5'></div>
 
         <TableContainer component={Paper}>
+          <Typography variant='h5' className='p-5'>Existing Admin Accounts</Typography>
           <Table>
             <TableHead>
               <TableRow>
@@ -110,6 +111,7 @@ export default function ManageAccess() {
             </TableBody>
           </Table>
         </TableContainer>
+        <div className='pb-10'/>
       </div>
     </>
   );

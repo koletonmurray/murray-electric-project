@@ -32,6 +32,40 @@
       "linkedinProfile": "",
       "coverLetter": "",
       "additionalInfo": "",
+      "applicationStatus": "approved"
+    },
+    {
+      "id": "ac9b",
+      "firstName": "Clark",
+      "lastName": "Lind",
+      "email": "koletonmurray7@gmail.com",
+      "phone": "3852838561",
+      "streetAddress": "15 S 1000 E",
+      "city": "Mapleton",
+      "state": "UT",
+      "zipCode": "84664",
+      "position": "Journeyman Electrician",
+      "school": "BYU",
+      "degree": "Bachelor's",
+      "fieldOfStudy": "Spanish",
+      "educationYearStart": 2020,
+      "educationYearComplete": 2017,
+      "skills": [
+        "Spanish",
+        "Hard Work",
+        "Foodie",
+        "Movie Lover",
+        "Dog Lover"
+      ],
+      "jobTitle": "Medical Assistant",
+      "organization": "Premier Family Medical",
+      "workLocation": "American Fork",
+      "workYearStart": 2021,
+      "workYearComplete": 2024,
+      "jobDescription": "I helped people",
+      "linkedinProfile": "",
+      "coverLetter": "",
+      "additionalInfo": "",
       "applicationStatus": "pending"
     }
   ],
@@ -717,6 +751,28 @@
       "email": "koletonmurray7@gmail.com",
       "phone": "3852838561",
       "additionalInfo": "Hi",
+      "requestStatus": "pending",
+      "id": "2b0a"
+    },
+    {
+      "id": "3938",
+      "projectName": "New School",
+      "projectType": "Commercial",
+      "budget": 4000000,
+      "streetAddress": "15 S 1000 E",
+      "city": "Provo",
+      "state": "UT",
+      "zipCode": "84606",
+      "startMonth": 5,
+      "startYear": 2024,
+      "completeMonth": 10,
+      "completeYear": 2025,
+      "projectDescription": "It's a new school. Cool!",
+      "firstName": "Koleton",
+      "lastName": "Murray",
+      "email": "koleton@business.com",
+      "phone": "3852838561",
+      "additionalInfo": "I'm amazing!",
       "requestStatus": "pending"
     }
   ],
@@ -735,6 +791,11 @@
       "id": "3caa",
       "username": "test",
       "password": "test123"
+    },
+    {
+      "id": "c9cd",
+      "username": "clark",
+      "password": "clark"
     }
   ]
 }
