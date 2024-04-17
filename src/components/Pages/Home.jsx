@@ -11,6 +11,7 @@ export default function Home() {
         <>
             <h1>Welcome to <Logo dropPeriod={true}/>!</h1>
             <div className="max-w-5xl mx-auto">
+                
                 {/* About the company */}
                 <div className="flex flex-col md:flex-row gap-12 items-center justify-center p-7">
                     <div className="flex-1 flex justify-center">

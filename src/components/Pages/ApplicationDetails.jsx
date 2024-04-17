@@ -75,14 +75,14 @@ export default function ApplciationDetails() {
                                 </ListItem>
                                 <ListItem>
                                 <FormControl fullWidth>
-                                    <InputLabel>Applciation Status</InputLabel>
+                                    <InputLabel>Application Status</InputLabel>
                                     <Select
                                         value={application.applicationStatus}
-                                        label="Applciation Status"
+                                        label="Application Status"
                                         onChange={handleStatusChange}
                                     >
                                         <MenuItem value="pending">Pending&nbsp; <PendingIcon/></MenuItem>
-                                        <MenuItem value="approved">Approved&nbsp; <CheckCircleIcon color='green'/></MenuItem>
+                                        <MenuItem value="approved">Approved&nbsp; <CheckCircleIcon/></MenuItem>
                                         <MenuItem value="denied">Denied&nbsp; <DoDisturbOnIcon/></MenuItem>
                                         <MenuItem value="waitlist">Waitlist&nbsp; <PanToolIcon/></MenuItem>
                                     </Select>

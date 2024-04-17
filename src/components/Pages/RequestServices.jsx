@@ -1,5 +1,5 @@
 import { useState, React } from 'react';
-import { TextField, Button, Typography, Grid, FormControl, FormHelperText, InputLabel, Select, MenuItem, FormControlLabel, Checkbox } from '@mui/material';
+import { TextField, Button, Typography, Grid, FormControl, FormHelperText, InputLabel, Select, MenuItem } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 export default function RequestServices () {

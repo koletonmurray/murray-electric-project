@@ -710,7 +710,7 @@
       "email": "koletonmurray7@gmail.com",
       "phone": "3852838561",
       "additionalInfo": "YES ",
-      "requestStatus": "approved"
+      "requestStatus": "pending"
     },
     {
       "id": "305d",
@@ -773,7 +773,7 @@
       "email": "koleton@business.com",
       "phone": "3852838561",
       "additionalInfo": "I'm amazing!",
-      "requestStatus": "pending"
+      "requestStatus": "waitlist"
     }
   ],
   "accounts": [

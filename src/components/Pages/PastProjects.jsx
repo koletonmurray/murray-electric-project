@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
+import MoneyFormat from '../MoneyFormat';
 
 /*
     I used ChatGPT heavily for this page. I created the basic table structure on my own and was able 
@@ -62,13 +63,6 @@ export default function PastProjects() {
         setSortConfig({ key, direction });
     };
 
-    function moneyFormat(value) {
-        return value ? new Intl.NumberFormat('en-US', {
-            style: 'currency',
-            currency: 'USD',
-        }).format(value) : '-';
-    }
-
     const getHeaderClass = (key) => {
         const baseClasses = "w-1/4 p-4 cursor-pointer hover:text-yellow transition-all duration-300 ease-in-out";
         const activeClasses = "underline decoration-2 underline-offset-8 hover:underline-offset-4 text-yellow";
@@ -100,7 +94,7 @@ export default function PastProjects() {
                                 <td data-label="Year Complete">{project.year_complete}</td>
                                 <td data-label="Project">{project.project_name}</td>
                                 <td data-label="Contracted Amount" className="text-right">
-                                    {moneyFormat(project.contracted_amount)}
+                                    {MoneyFormat(project.contracted_amount)}
                                 </td>
                                 <td data-label="Contractor" className="text-right">{project.contractor}</td>
                             </tr>

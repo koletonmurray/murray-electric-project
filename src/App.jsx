@@ -17,11 +17,12 @@ import Success from './components/Pages/Success';
 import PrivateRoute from './components/PrivateRoute';
 import Admin from './components/Pages/Admin';
 import AdminLayout from './components/Layout/AdminLayout';
+import ApplicationDetails from './components/Pages/ApplicationDetails';
 import Logout from './components/Pages/Logout';
 import ManageAccess from './components/Pages/ManageAccess';
+import RequestDetails from './components/Pages/RequestDetails';
 import ReviewApplications from './components/Pages/ReviewApplications';
 import ReviewRequests from './components/Pages/ReviewRequests';
-import ApplciationDetails from './components/Pages/ApplicationDetails';
 
 
 function App() {
@@ -35,10 +36,11 @@ function App() {
               <Routes>
                 <Route path="/" element={<Admin />} />
                 <Route path="/*" element={<Admin />} />
+                <Route path='/application/:id' element={<ApplicationDetails/>} />
                 <Route path="/job-applications" element={<ReviewApplications />} />
                 <Route path="/manage-access" element={<ManageAccess />} />
+                <Route path='/request/:id' element={<RequestDetails/>} />
                 <Route path="/service-requests" element={<ReviewRequests />} />
-                <Route path='/application/:id' element={<ApplciationDetails/>} />
               </Routes>
             </AdminLayout>
           </PrivateRoute>
