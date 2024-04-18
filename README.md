@@ -2,9 +2,11 @@
 
 ## My Project
 
+- To run my project, react and JSON server simply type "npm start" and go to the localhost url for the react site.
+
 - This project was great! I really enjoyed being able to customize my project to do something real and meaningful. I took on my family's business and built out a website for them. Currently, they have no web presence. This site doubles as a customer-facing about us/contact us website for people to apply to work for the company and make service requests. Additionally, this site supports an admin page for admin capability to review applications and manage access. A link to a video walkthrough of my website is linked below. A further explanation of what I've accomplished is in the following section.
 
-VIDEO WALKTHROUGH:
+VIDEO WALKTHROUGH: https://www.youtube.com/watch?v=Vnc5W7HDn_I
 
 ## What I've Accomplished
 

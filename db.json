@@ -66,7 +66,41 @@
       "linkedinProfile": "",
       "coverLetter": "",
       "additionalInfo": "",
-      "applicationStatus": "pending"
+      "applicationStatus": "denied"
+    },
+    {
+      "id": "2ab3",
+      "firstName": "Koleton",
+      "lastName": "Murray",
+      "email": "koletonmurray7@gmail.com",
+      "phone": "3852838561",
+      "streetAddress": "15 S 1000 E",
+      "city": "Mapleton",
+      "state": "UT",
+      "zipCode": "84664",
+      "position": "Journeyman Electrician",
+      "school": "BYU",
+      "degree": "Certification",
+      "fieldOfStudy": "IS",
+      "educationYearStart": 2929,
+      "educationYearComplete": 29292,
+      "skills": [
+        "Hi",
+        "this",
+        "is ",
+        "my ",
+        "webiste"
+      ],
+      "jobTitle": "Skeje",
+      "organization": "asdfas",
+      "workLocation": "asdfas",
+      "workYearStart": 2019,
+      "workYearComplete": 2034,
+      "jobDescription": "asdfasd",
+      "linkedinProfile": "",
+      "coverLetter": "",
+      "additionalInfo": "",
+      "applicationStatus": "waitlist"
     }
   ],
   "past-projects": [
@@ -710,7 +744,7 @@
       "email": "koletonmurray7@gmail.com",
       "phone": "3852838561",
       "additionalInfo": "YES ",
-      "requestStatus": "pending"
+      "requestStatus": "waitlist"
     },
     {
       "id": "305d",
@@ -751,7 +785,7 @@
       "email": "koletonmurray7@gmail.com",
       "phone": "3852838561",
       "additionalInfo": "Hi",
-      "requestStatus": "pending",
+      "requestStatus": "approved",
       "id": "2b0a"
     },
     {
@@ -774,6 +808,27 @@
       "phone": "3852838561",
       "additionalInfo": "I'm amazing!",
       "requestStatus": "waitlist"
+    },
+    {
+      "id": "cc31",
+      "projectName": "asdlj",
+      "projectType": "Commercial",
+      "budget": 122000,
+      "streetAddress": "15 S 1000 E",
+      "city": "Mapleton",
+      "state": "UT",
+      "zipCode": "84664",
+      "startMonth": 1,
+      "startYear": 2023,
+      "completeMonth": 2,
+      "completeYear": 2020,
+      "projectDescription": "asdlfkjasldf",
+      "firstName": "Koleton",
+      "lastName": "Murray",
+      "email": "koletonmurray7@gmail.com",
+      "phone": "3852838561",
+      "additionalInfo": "",
+      "requestStatus": "denied"
     }
   ],
   "accounts": [
@@ -796,6 +851,11 @@
       "id": "c9cd",
       "username": "clark",
       "password": "clark"
+    },
+    {
+      "id": "8fdf",
+      "username": "test1",
+      "password": "test123456"
     }
   ]
 }
